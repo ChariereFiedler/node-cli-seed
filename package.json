@@ -1,0 +1,27 @@
+{
+  "name": "node-cli-seed",
+  "version": "0.1.0",
+  "description": "Scaffolding to bootstrap Node Cli modules",
+  "main": "dist/main.js",
+  "bin": {
+    "node-cli-seed": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter list -c ./src/**/**.spec.ts"
+  },
+  "author": "cedric chariere fiedler",
+  "license": "ISC",
+  "dependencies": {
+    "@types/commander": "^2.3.31",
+    "@types/mocha": "^2.2.33",
+    "@types/node": "0.0.0",
+    "chai": "^3.5.0",
+    "commander": "^2.9.0",
+    "mocha": "^3.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.3",
+    "typescript": "^2.0.10"
+  }
+}
