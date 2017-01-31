@@ -2,8 +2,7 @@
 
 ## About
 
-Node Cli Seed is an initial scaffolding with first step
-to bootstrap Node Cli modules.
+Bootstrap your Node CLI project with this seed.
 
 ## Features
 
@@ -19,5 +18,3 @@ to bootstrap Node Cli modules.
 ## Test
 
     $npm test
-
-## Usage
