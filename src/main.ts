@@ -1,9 +1,6 @@
-let commander = require('commander');
-
-let config = require('../package.json');
+import * as commander from 'commander';
 
 commander
-    .version(config.version)
     .option('-o, --option <item>', 'Describe here your commander option')
     .parse(process.argv);
 

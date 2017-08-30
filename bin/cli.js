@@ -2,4 +2,4 @@
 
 'use strict';
 
-require('../dist/main.js');
+require('../build/bundle.js');
