@@ -7,14 +7,18 @@ Bootstrap your Node CLI project with this seed.
 ## Features
 
 - Typescript
-- Gulpfile
+- Webpack
 - Commander
 - Unit testing with Mocha and Chai
 
 ## Installation
 
-    $npm i
+    $ npm i
 
 ## Test
 
-    $npm test
+    $ npm test
+
+## Build
+
+    $ npm run webpack
